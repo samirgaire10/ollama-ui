@@ -1,5 +1,17 @@
 # ollama-ui
 
+<h1 align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+👋,+I'm+samir+gaire;Hi+👋,+私は,+ガイレ+サミル;Hi+👋,+म+समिर‌+गैरे+हो;)](https://samirgaire10.github.io/Portfolio/)
+
+</h1>
+<p align="center">A tech enthusiast with a passion for open-source technology and programming  languages like Python and C .</p>
+</h1>
+
+
+
+# ollama-ui
+
 Just a simple HTML UI for Ollama
 
 ## Usage
@@ -14,15 +26,6 @@ open http://localhost:8000 # in browser
 
 ![screenshot](/ollama.png?raw=true)
 
-# chat gpt widget for plasma 6
-
-<h1 align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hi+👋,+I'm+samir+gaire;Hi+👋,+私は,+ガイレ+サミル;Hi+👋,+म+समिर‌+गैरे+हो;)](https://samirgaire10.github.io/Portfolio/)
-
-</h1>
-<p align="center">A tech enthusiast with a passion for open-source technology and programming  languages like Python and C .</p>
-</h1>
 
 ## Other Tools
 
