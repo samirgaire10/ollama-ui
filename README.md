@@ -17,7 +17,7 @@ Just a simple HTML UI for Ollama
 ## Usage
 
 ```
-git clone
+git clone  https://github.com/samirgaire10/ollama-ui.git
 cd ollama-ui
 make
 
