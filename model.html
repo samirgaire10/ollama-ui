@@ -20,44 +20,57 @@
 <body data-bs-theme="dark">
 
 
-
-
-
-
     <div class="main">
 
-        <div class="sidenav">
+        <div class="sidenav" id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
             <a href="./index.html">Ollama</a>
             <a href="./Hostname.html">Hostname</a>
             <a href="./model.html">Model</a>
+            <hr>
+            <!-- ------------- -->
+
+
+            <div class="d-flex align-items-center">
+                <select id="chat-select" class="form-select" style="width: 100%;">
+                    <option value="" disabled selected>Select a chat</option>
+                </select>
+            </div>
+
         </div>
 
 
-        <!-- <div class="container"> -->
-        <!-- <div class="row pt-3"> -->
-        <a href="http://127.0.0.1:8000/"> <img src="favicon.ico" style="width: 10%;" alt="ollama">
-        </a>
+        <div id="main" class="container">
+            <div class="row pt-3">
+                <div class="col-md-8 col-12">
+                    <button class="openbtn" onclick="openNav()">☰</button>
+
+                    <a href="./index.html"> <img src="favicon.ico" style="width: 10%;" alt="ollama">
+                    </a>
+                </div>
+
+                <br><br>
+                <div style="align-items: center;" id="model-controls"
+                    class="col-md-4 col-12 text-md-end text-start mb-3">
+                    <div class="d-flex flex-column align-items-md-end align-items-start">
 
 
 
-        <br><br>
-        <div style="align-items: center;" id="model-controls" class="col-md-4 col-12 text-md-end text-start mb-3">
-            <div class="d-flex flex-column align-items-md-end align-items-start">
 
 
 
 
 
+                    </div>
+                </div>
+                <!-- </div> -->
 
 
-
+                <!-- </div> -->
+                <!-- </div> -->
             </div>
         </div>
-        <!-- </div> -->
-
-
-        <!-- </div> -->
-        <!-- </div> -->
     </div>
     <script src="api.js"></script>
     <script src="chat.js"></script>
